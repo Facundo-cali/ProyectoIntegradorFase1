@@ -1,0 +1,99 @@
+.fondo-footer {
+  background: white;
+}
+.fondo {
+  background-color: #28a745;
+}
+.fondo-celeste {
+  color: white;
+  background-color: #3092fc;
+}
+
+.img {
+  background-image: url(../img/home-sm.jpg);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+
+.cont {
+  position: absolute;
+  right: 2%;
+  bottom: 5%;
+  text-align: center;
+  border: none;
+  width: 300px;
+}
+
+.texto {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+footer {
+  color: white;
+  background: #3c4146;
+  padding: 40px;
+}
+
+.carousel-item img {
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: black !important;
+}
+
+.img-act {
+  background-image: url(../img/actividades-sm.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  fill: black !important;
+}
+
+.letras {
+  font-size: 25px;
+}
+
+.img-proyecto {
+  background-image: url(../img/proyecto-header-sm.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .img-2 {
+    background-image: url(../img/home-md.jpg);
+  }
+  .cont {
+    width: 350px;
+  }
+  .img-proyecto {
+    background-image: url(../img/proyecto-header-md.jpg);
+  }
+}
+@media screen and (min-width: 990px) {
+  .img-2 {
+    background-image: url(../img/home-lg.jpg);
+  }
+  .cont {
+    width: 450px;
+  }
+
+  .img-proyecto {
+    background-image: url(../img/proyecto-header-sm.jpg);
+  }
+}
